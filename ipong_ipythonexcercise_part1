@@ -1,0 +1,14 @@
+1.) 2.3.1
+2.) Both methods are the same for me.
+3.) I see keywords that start with the letter 'b'. Tab completion shows keywords that starts with the letter that is input.
+4.) I see the word 'datetime'
+5.) It displays "Out[7]: [1,2,3]"
+6.) Input is add_numbers: Output is "Out[9]: <function __main__.add_numbers>"
+    Input uses double question marks: I see the definition and the source code of the function
+7.) Invalid syntzx
+8.) %run filename
+9.) C as input: 7.5
+    result as input: 1.4666666666666666
+    The Ipython command line can access the variables of the script that is being run. A normal Python interpreter cannot display the variables in a script because the script is run outside of the Python interpreter.
+10.)  
+11.) Yes it works but it is not saved in a python file
