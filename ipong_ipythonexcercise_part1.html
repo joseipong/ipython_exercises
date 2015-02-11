@@ -65,4 +65,43 @@
 
 </p>
 
+<p>Part 2</p>
+1.) Searching, completing and executing previously-executed commands with minimal typing.<br>
+Persisting the command history between sessions.<br>
+Logging the input/output history to a file.<br>
+
+2.) Either CTRL-P or the up arrow key.<br>
+2.2) Single underscore (_) and double underscore (__) stores the two previous output variables and it can be used by trailing the underscore with the line number, an example would be _21, this means to access the output in line 21.<br>
+The _iX stores the input variable and it's accessed by typing the line number like _i23, this gets the input at line 23.<br>
+2.3) Logging input and output - By typing %logstart.<br>
+Interacting with the operating system<br>
+1 - !cmd
+2 - output = !cmd args<br>
+3 - %bookmark<br>
+4 - %cd directory<br>
+5 - %pwd<br>
+6 - %dhist<br>
+7 - %env
+2.5) 
+1 - %bookmark db /Documents/exercises<br>
+2 - Bookmarks persist between IPython sessions while aliases do not.<br>
+2.6)
+1 - I can see the line where the error occurred.<br>
+2.7)
+%time runs a statement once then reports the total execution time<br>
+%timeit is a more precise version of %time; it runs a statement multiple times to get a more accurate result<br>
+Ex.<br>
+nums = [1,2,3,4,5]<br>
+%time [x for x in nums print x]<br>
+%timeit [x for x in nums print x]<br>
+2.8)
+
+
+
+
+
+
+
+
+
 </body>
